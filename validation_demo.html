@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Validation demo</title>
+    </head>
+    <body>
+        
+        <form name="mine" method="post" onsubmit="return grras()">
+            <input type="text" name="uname" id="uname">
+            <input type="password" name="passw" id="passw">
+            <input type="submit" name="submit" id="submit">
+            <!-- <button onclick="grras()">click me</button> -->
+        </form>
+
+        <script>
+            function grras(){
+                const username=document.forms['mine']['uname'].value;
+                // document.write(username);
+                if(username==""){
+                    alert('Please enter ur name...');
+                    return false;
+                }
+                 if(username.length<=3){
+                    alert('Ur name is too short');
+                    return false;
+                }
+            }
+        </script>
+    </body>
+</html>

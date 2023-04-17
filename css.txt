@@ -1,0 +1,6 @@
+css --> Cascading style sheet
+
+3 types css:
+    1. Inline css--> <tag style="...">
+    2. Internal css --> <head><style>.....</style></head>
+    3. External css --> <style href=""> make a different file for css

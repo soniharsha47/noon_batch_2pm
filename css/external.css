@@ -1,0 +1,17 @@
+body{
+    background-color: white;
+}
+.bod{
+    color: green;   
+    border-width: 10px;
+    /* border-style: solid; */
+    /* border-style: dotted; */
+    /* border-style: dashed; */
+    /* border-style: groove; */
+    /* border-style: outset; */
+    /* border-style: inset; */
+    /* border-style: hidden; */
+    /* border-style: none; */
+    border-style: double;
+    border-color: red;
+}
